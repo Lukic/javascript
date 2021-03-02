@@ -12,6 +12,7 @@ var tal2 = 1;
 // Const = PRIVAT / LÅST
 
 
+
 let weekDay = "Tirsdag";
 const totalDaysInAWeek = 7;
 
