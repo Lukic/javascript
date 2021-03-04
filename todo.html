@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      article {
+        margin: 150px auto 0;
+        width: 500px;
+        border: 1px solid #333;
+        background-color: white;
+      }
+
+      article h2 {
+        text-align: center;
+      }
+
+      article p {
+        padding: 25px 45px;
+      }
+
+      input {
+        border: 1px solid #333;
+        height: 50px;
+        width: 200px;
+      }
+
+      .item {
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h2>ToDo</h2>
+      <p id="todoContainer">hej</p>
+
+      <input
+        type="text"
+        name="todo"
+        id="todo"
+        placeholder="Hvad skal du gøre?"
+      />
+      <button onclick="addToDo()">GEM</button>
+    </article>
+
+    <script src="js/todo.js"></script>
+  </body>
+</html>
